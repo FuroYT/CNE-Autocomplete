@@ -16,7 +16,7 @@ Autocomplete for Codename XML Files (only for Stages at the moment and soon haxe
 5. Restart Visual Studio Code
 
 ## Release Notes
-### 1.0.0
+### 0.5.1
 
 The first release yay!
 

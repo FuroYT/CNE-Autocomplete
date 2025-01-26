@@ -2,15 +2,19 @@
   "name": "codename-autocomplete",
   "displayName": "Codename Autocomplete",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "engines": {
     "vscode": "^1.96.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FuroYT/CNE-Autocomplete"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {

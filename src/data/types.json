@@ -1,0 +1,45 @@
+{
+    "StateEvent": {
+		"path": "funkin.backend.scripting.events",
+        "vars": [
+            {
+                "name": "substate",
+                "type": "FlxState",
+				"typePath": "flixel",
+                "description": "Substate that is about to be opened/closed",
+                "isFunc": false
+            }
+        ]
+    },
+    "ResizeEvent": {
+		"path": "funkin.backend.scripting.events",
+        "vars": [
+            {
+                "name": "width",
+                "type": "Int",
+                "description": "New width",
+                "isFunc": false
+            },
+            {
+                "name": "height",
+                "type": "Int",
+                "description": "New height",
+                "isFunc": false
+            }
+        ]
+    },
+    "DrawEvent": {
+		"path": "funkin.backend.scripting.events",
+		"vars": []
+	},
+	"DiscordPresenceUpdateEvent": {
+		"path": "funkin.backend.scripting.events",
+		"vars": [
+			{
+				"name": "presence",
+				"type": "DPresence",
+				"typePath": "funkin.backend.utils.DiscordUtil"
+			}
+		]
+	}
+}

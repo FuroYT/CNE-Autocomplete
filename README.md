@@ -6,7 +6,7 @@ Autocomplete for Codename XML Files (only for Stages at the moment and soon haxe
 
 - Create stage with with stage snippets and code completion
 - *PLANNED!* ~~Completion for other XML file types~~
-- *PLANNED!* ~~Completion for hscript (callbacks, functions, variables)~~
+- *IN PROGRESS!* ~~Completion for hscript (callbacks, functions, variables)~~
 
 ### Installing VSIX 
 1. Download the .vsix file from the latest release
@@ -16,6 +16,11 @@ Autocomplete for Codename XML Files (only for Stages at the moment and soon haxe
 5. Restart Visual Studio Code
 
 ## Release Notes
+### 0.6
+
+Changed Codename Autocomplete Prefix to "CNE"
+Added the default hscript events and callbacks (no type checking) (global scripts has different autocomplete than normal scripts)
+
 ### 0.5.1
 
 The first release yay!

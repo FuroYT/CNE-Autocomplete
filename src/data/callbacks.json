@@ -1,0 +1,210 @@
+{
+    "callbacks": [
+        {
+            "name": "create",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "postCreate",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "preUpdate",
+            "args": [
+                {
+                    "name": "elapsed",
+                    "type": "Float"
+                }
+            ],
+            "isGlobal": null
+        },
+        {
+            "name": "update",
+            "args": [
+                {
+                    "name": "elapsed",
+                    "type": "Float"
+                }
+            ],
+            "isGlobal": null
+        },
+        {
+            "name": "postUpdate",
+            "args": [
+                {
+                    "name": "elapsed",
+                    "type": "Float"
+                }
+            ],
+            "isGlobal": null
+        },
+        {
+            "name": "destroy",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "onFocus",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "onFocusLost",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "focusGained",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "stepHit",
+            "args": [
+                {
+                    "name": "curStep",
+                    "type": "Int"
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "name": "beatHit",
+            "args": [
+                {
+                    "name": "curBeat",
+                    "type": "Int"
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "name": "measureHit",
+            "args": [
+                {
+                    "name": "curMeasure",
+                    "type": "Int"
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "name": "focusLost",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "gameResized",
+            "args": [
+                {
+                    "name": "width",
+                    "type": "Int"
+                },
+                {
+                    "name": "height",
+                    "type": "Int"
+                }
+            ],
+            "isGlobal": true
+        },
+        {
+            "name": "postDraw",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "postGameReset",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "postGameStart",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "postStateSwitch",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "preDraw",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "preGameReset",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "preGameStart",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "preStateCreate",
+            "args": [
+                {
+                    "name": "state",
+                    "type": "FlxState"
+                }
+            ],
+            "isGlobal": true
+        },
+        {
+            "name": "preStateSwitch",
+            "args": [],
+            "isGlobal": true
+        },
+        {
+            "name": "onScriptCreated",
+            "args": [
+                {
+                    "name": "script",
+                    "type": "HScript",
+                    "typePath": "funkin.backend.scripting"
+                },
+                {
+                    "name": "type",
+                    "type": "String"
+                }
+            ],
+            "isGlobal": true
+        }
+    ],
+    "events": [
+        {
+            "name": "onOpenSubState",
+            "type": "StateEvent",
+            "isGlobal": false
+        },
+        {
+            "name": "onStateSwitch",
+            "type": "StateEvent",
+            "isGlobal": false
+        },
+        {
+            "name": "onResize",
+            "type": "ResizeEvent",
+            "isGlobal": false
+        },
+        {
+            "name": "draw",
+            "type": "DrawEvent",
+            "isGlobal": false
+        },
+        {
+            "name": "postDraw",
+            "type": "DrawEvent",
+            "isGlobal": false
+        },
+        {
+            "name": "onDiscordPresenceUpdate",
+            "type": "DiscordPresenceUpdateEvent",
+            "isGlobal": true
+        }
+    ]
+}

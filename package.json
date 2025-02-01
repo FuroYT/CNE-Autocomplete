@@ -2,7 +2,7 @@
   "name": "codename-autocomplete",
   "displayName": "Codename Autocomplete",
   "description": "",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -10,7 +10,7 @@
   "publisher": "furo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FuroYT/CNE-Autocomplete"
+    "url": "https://github.com/CodenameCrew/CNE-Autocomplete"
   },
   "categories": [
     "Other"

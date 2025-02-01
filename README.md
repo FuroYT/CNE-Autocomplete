@@ -1,6 +1,6 @@
 # Codename Engine Autocomplete
 
-Autocomplete for Codename XML Files (only for Stages at the moment and soon haxe scripts too)
+Autocomplete for Codename XML Files (Only stages currently) & Haxe scripts (HScript)
 
 ## Features
 
@@ -16,7 +16,14 @@ Autocomplete for Codename XML Files (only for Stages at the moment and soon haxe
 5. Restart Visual Studio Code
 
 ## Release Notes
-### 0.6
+
+### 0.6.1
+
+Fixed regex for arrow functions
+Removed the command example from vscode :skull: (i left it in by accident)
+Changed repo url to the CodenameCrew one
+
+### 0.6.0
 
 Changed Codename Autocomplete Prefix to "CNE"
 Added the default hscript events and callbacks (no type checking) (global scripts has different autocomplete than normal scripts)
@@ -31,6 +38,6 @@ NOTE : If you don't know how to install dependencies use `npm install`
 
 ## Compiling and Editing the source
 1. Install [npm](https://nodejs.org/en/download/)
-2. Clone this repo with ```git clone https://github.com/FuroYT/CNE-Autocomplete.git``
+2. Clone this repo with ```git clone https://github.com/CodenameCrew/CNE-Autocomplete.git``
 3. To install all the libraries run ```npm install```
 4. And to compile run ```npm run build```

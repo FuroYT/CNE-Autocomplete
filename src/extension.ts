@@ -200,12 +200,6 @@ export function activate(context: vscode.ExtensionContext) {
 			await vscode.workspace.applyEdit(edit);
 		}
 	}));
-
-    var disposable = vscode.commands.registerCommand('codename-autocomplete.helloWorld', () => {
-        vscode.window.showInformationMessage('Hello World from codename-autocomplete!');
-    });
-
-    context.subscriptions.push(disposable);
 }
 
 // This method is called when your extension is deactivated
@@ -222,7 +216,7 @@ function checkIfInFunction(document: vscode.TextDocument, position: vscode.Posit
         // Function with newline before brace
         /(public|private|static|override)?\s*function\s+\w+\s*(<[^>]*>)?\s*\([^)]*\)(\s*:\s*[^{]*?)?\s*\n\s*{/g,
         // Arrow functions
-        /\([^)]*\)(\s*:\s*[^=]*?)?\s*=>\s*{/g
+        /\([^)]*\)(\s*:\s*[^\-]*?)?\s*->\s*{/g
     ];
 
     let isInFunction = false;

@@ -178,19 +178,27 @@
             "name": "onNoteHit",
             "args": [
                 {
-                    "name": "noteType",
+                    "name": "event"
                 }
             ],
             "isGlobal": true
         },
         {
             "name": "onPlayerHit",
-            "args": [],
+            "args": [
+                {
+                    "name": "event"
+                }
+            ],
             "isGlobal": false
         },
         {
             "name": "onDadHit",
-            "args": [],
+            "args": [
+                {
+                    "name": "event"
+                }
+            ],
             "isGlobal": false
         },
         {

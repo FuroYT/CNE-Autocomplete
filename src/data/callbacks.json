@@ -179,9 +179,18 @@
             "args": [
                 {
                     "name": "noteType",
-                    "type": "String"
                 }
             ],
+            "isGlobal": true
+        },
+        {
+            "name": "onPlayerHit",
+            "args": [],
+            "isGlobal": false
+        },
+        {
+            "name": "onDadHit",
+            "args": [],
             "isGlobal": false
         },
         {

@@ -182,7 +182,7 @@
                     "type": "NoteHitEvent"
                 }
             ],
-            "isGlobal": true
+            "isGlobal": false
         },
         {
             "name": "onPlayerHit",

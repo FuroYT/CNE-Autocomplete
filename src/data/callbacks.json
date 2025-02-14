@@ -178,7 +178,8 @@
             "name": "onNoteHit",
             "args": [
                 {
-                    "name": "event"
+                    "name": "event",
+                    "type": "NoteHitEvent"
                 }
             ],
             "isGlobal": true
@@ -187,7 +188,9 @@
             "name": "onPlayerHit",
             "args": [
                 {
-                    "name": "event"
+                    "name": "event",
+                    "type": "NoteHitEvent"
+
                 }
             ],
             "isGlobal": false
@@ -196,7 +199,8 @@
             "name": "onDadHit",
             "args": [
                 {
-                    "name": "event"
+                    "name": "event",
+                    "type": "NoteHitEvent"
                 }
             ],
             "isGlobal": false
